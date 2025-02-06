@@ -5,7 +5,7 @@ body {
     align-items:center;
     height: 100;
     margin: 0;
-    background-color: cornflowerblue;
+    background-color: #FFDF00;
 
 }
 
@@ -21,7 +21,7 @@ button {
 }
 
 button:hover {
-    background-color: #f556ad;
+    background-color: #fa70b7;
 
 }
 
