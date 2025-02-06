@@ -1,4 +1,4 @@
-body {
+body { 
     font-family: Arial, sans-serif;
     background-color: cornflowerblue;
     margin: 0;
@@ -6,27 +6,28 @@ body {
 
 body .box {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
+    gap: 20px; 
 }
 
 .buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row; 
+    gap: 10px; 
 }
 
 button {
     padding: 10px 20px;
-    margin: 10px;
     font-size: 16px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
     background-color: plum;
     color: white;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -35,7 +36,7 @@ button:hover {
 
 img {
     height: 200px;
-    object-fit: cover;
     width: 200px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
