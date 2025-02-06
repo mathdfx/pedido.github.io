@@ -5,13 +5,18 @@ body {
 }
 
 body .box {
-    text-align: center;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /
     margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
 }
 
 button {
@@ -30,10 +35,8 @@ button:hover {
 }
 
 img {
-    justify-content: center;
-    align-items: center;
     height: 200px;
     object-fit: cover;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
