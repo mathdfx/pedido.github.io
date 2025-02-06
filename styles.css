@@ -22,14 +22,14 @@ body .box {
 }
 
 .buttons {
-    display: flex;
-    flex-direction: column; 
-    gap: 10px;
+    position: relative;
     width: 100%;
-    max-width: 300px; 
+    max-width: 300px;
+    height: 300px;
 }
 
 button {
+    position: center;
     padding: 15px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -37,8 +37,11 @@ button {
     border-radius: 5px;
     background-color: plum;
     color: white;
-    transition: background-color 0.3s;
-    width: 100%; 
+
+}
+
+#nao {
+    position: absolute;
 }
 
 button:hover {
